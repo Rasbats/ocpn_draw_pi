@@ -25,7 +25,7 @@ set(PACKAGE "ocpn_draw")
 set(VERSION_MAJOR "2")
 set(VERSION_MINOR "0")
 set(VERSION_PATCH "0")
-set(VERSION_TWEAK "2")
+set(VERSION_TWEAK "3")
 set(VERSION_DATE "25/06/2020")
 set(OCPN_MIN_VERSION "ov50")
 set(OCPN_API_VERSION_MAJOR "1")
@@ -44,9 +44,9 @@ set(PARENT "opencpn")
 set(GIT_REPOSITORY_SERVER "github.com")
 
 # Builds repository sufficies
-#set(PROD "prod") # Standard Repos
+set(PROD "prod") # Standard Repos
 set(BETA "beta") # Standard Repos
-#set(ALPHA "alpha") # Standard Repos
+set(ALPHA "alpha") # Standard Repos
 
 set(CLOUDSMITH_USER "mike-rossiter")
 # set this if your cloudsmith repository name does not match your git repository name set(CLOUDSMITH_BASE_REPOSITORY "${GIT_REPOSITORY_NAME}")
