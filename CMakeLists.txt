@@ -22,11 +22,11 @@ set(TITLE_NAME "OCPNDRAW")
 set(PACKAGE_CONTACT "Jon Gough")
 set(PACKAGE "ocpn_draw")
 
-set(VERSION_MAJOR "1")
-set(VERSION_MINOR "8")
+set(VERSION_MAJOR "2")
+set(VERSION_MINOR "0")
 set(VERSION_PATCH "0")
-set(VERSION_TWEAK "17")
-set(VERSION_DATE "07/07/2020")
+set(VERSION_TWEAK "0")
+set(VERSION_DATE "25/06/2020")
 set(OCPN_MIN_VERSION "ov50")
 set(OCPN_API_VERSION_MAJOR "1")
 set(OCPN_API_VERSION_MINOR "16")
@@ -44,12 +44,13 @@ set(PARENT "opencpn")
 set(GIT_REPOSITORY_SERVER "github.com")
 
 # Builds repository sufficies
-set(PROD "prod") # Standard Repos
+#set(PROD "prod") # Standard Repos
 set(BETA "beta") # Standard Repos
-set(ALPHA "alpha") # Standard Repos
+#set(ALPHA "alpha") # Standard Repos
 
-set(CLOUDSMITH_USER "jon-gough")
+set(CLOUDSMITH_USER "mike-rossiter")
 # set this if your cloudsmith repository name does not match your git repository name set(CLOUDSMITH_BASE_REPOSITORY "${GIT_REPOSITORY_NAME}")
+set(CLOUDSMITH_BASE_REPOSITORY "ocpn_draw")
 set(XML_INFO_URL "https://opencpn.org/OpenCPN/plugins/draw.html")
 set(XML_SUMMARY "Drawing Plugin to allow extra objects to be drawn and used within OCPN")
 set(XML_DESCRIPTION "OCPN_DRAW (OD) is a plugin that extends the capability of OCPN to include non-standard object: Boundaries, Boundary Points, Text Points, Dead Reckoning paths, Electronic Bearing Lines (EBL) and Guard Zones. The plugin also has an API to allow other plugins to directly interact with it.")
